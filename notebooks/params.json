@@ -1,8 +1,8 @@
 {
     "dim_p": 1,
     "dim_u": 3,
-    "stab_u": 1,
-    "stab_d": 1,
+    "stab_u": 0.999,
+    "stab_d": 0.001,
     "actfun_prm_V": "sigmoid",
     "actfun_var1_V": "tanh",
     "hidsize_var1_V": 100,
@@ -13,7 +13,7 @@
     "actfun_var1_S": "tanh",
     "hidsize_var1_S": 100,
     "trajectory_points_list_size": 1000,
-    "chunks_count": 1000,
+    "chunks_count": 1,
     "epochs": 2000,
     "p_split": 0.2
 }
